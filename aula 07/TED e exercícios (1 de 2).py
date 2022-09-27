@@ -5,10 +5,10 @@ preço1 = 1.30
 preço2 = 1.00
 
 
-quantidade = int(input('Quntas maçãs você quer? '))
+quantidade = int(input('Quantas maçãs você quer? '))
 n1 = preço1*quantidade
 n2 = preço2*quantidade
-if quantidade < 12:
+if quantidade < 11:
     print(f'Fica por R$ {n1}')
 else:
     print(f'O valor será de R$ {n2}')
